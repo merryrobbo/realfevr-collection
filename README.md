@@ -12,11 +12,9 @@ This script can probably be used to get marketplace pages into a csv format also
 
 ## Getting Started
 
-### Executing program
-
 * Connect your wallet on the realfevr site.
 * Browse to your collection page on the realfevr website. The default is 12 but you can change it to a maximum of 96 to get more items e.g. https://www.realfevr.com/collection?page=1&per_page=96.
-* Inspect the html element then "Copy outer html".
+* Inspect the <html> element then right click and "Copy outer html".
 * Save it to the collection-html folder. Any file name is accepted however for Beach Soccer prefix "bs-" to the filename.
 * Repeat for each page of your collection.
 ```
